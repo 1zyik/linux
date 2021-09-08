@@ -1,13 +1,19 @@
-# All my aliases live here 
- 
+# All my aliases live here
+
 # Change default audio output on the fly - 95% Accuracy
 alias audio-hdmi='pacmd set-card-profile 0 output:hdmi-stereo+input:analog-stereo'
 alias audio-laptop='pacmd set-card-profile 0 output:analog-stereo+input:analog-stereo'
 
-# xrandr screen brightness 
-alias brightness-max='xrandr --output eDP-1 --brightness 1'
-alias brightness-mid-max='xrandr --output eDP-1 --brightness 0.7'
-alias brightness-mid='xrandr --output eDP-1 --brightness 0.55'
-alias brightness-low-mid='xrandr --output eDP-1 --brightness 0.3'
-alias brightness-low='xrandr --output eDP-1 --brightness 0.15'
+
+# Shortcut Aliases
+alias cls='clear'
+alias q='exit'
+
+
+# xrandr screen brightness
+alias b-1='xrandr --output eDP-1 --brightness 1'
+alias b-0.7='xrandr --output eDP-1 --brightness 0.7'
+alias b-0.5='xrandr --output eDP-1 --brightness 0.55'
+alias b-0.3='xrandr --output eDP-1 --brightness 0.3'
+alias b-0.1='xrandr --output eDP-1 --brightness 0.15'
 
