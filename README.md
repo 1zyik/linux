@@ -1,2 +1,2 @@
-# alias
+# Aliases
 My Linux Aliases
