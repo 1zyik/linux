@@ -8,12 +8,23 @@ alias audio-laptop='pacmd set-card-profile 0 output:analog-stereo+input:analog-s
 # Shortcut Aliases
 alias cls='clear'
 alias q='exit'
+alias ping-google='ping www.google.com'
+alias push-l='xrandr --output HDMI-1 --auto --left-of eDP-1'
+alias push-r='xrandr --output HDMI-1 --auto --right-of eDP-1'
 
 
-# xrandr screen brightness
-alias b-1='xrandr --output eDP-1 --brightness 1'
-alias b-0.7='xrandr --output eDP-1 --brightness 0.7'
-alias b-0.5='xrandr --output eDP-1 --brightness 0.55'
-alias b-0.3='xrandr --output eDP-1 --brightness 0.3'
-alias b-0.1='xrandr --output eDP-1 --brightness 0.15'
+# xrandr Laptop screen brightness
+alias lb-2='xrandr --output eDP-1 --brightness 2'
+alias lb-1='xrandr --output eDP-1 --brightness 1'
+alias lb-0.7='xrandr --output eDP-1 --brightness 0.7'
+alias lb-0.5='xrandr --output eDP-1 --brightness 0.55'
+alias lb-0.3='xrandr --output eDP-1 --brightness 0.3'
+alias lb-0.1='xrandr --output eDP-1 --brightness 0.15'
 
+# xrandr Display 1 screen brightness
+alias d1b-2='xrandr --output HDMI-1 --brightness 2'
+alias d1b-1='xrandr --output HDMI-1 --brightness 1'
+alias d1b-0.7='xrandr --output HDMI-1 --brightness 0.7'
+alias d1b-0.5='xrandr --output HDMI-1 --brightness 0.55'
+alias d1b-0.3='xrandr --output HDMI-1 --brightness 0.3'
+alias d1b-0.1='xrandr --output HDMI-1 --brightness 0.15'
