@@ -2,6 +2,8 @@
 alias cls='clear'
 alias q='exit'
 alias ping-google='ping www.google.com'
+alias ping-1='ping 1.1.1.'
+alias x-find="xrandr -q | grep ' connected' | head -n 1 | cut -d ' ' -f1"
 alias off='systemctl poweroff -i'
 alias sleep='systemctl suspend'
 
